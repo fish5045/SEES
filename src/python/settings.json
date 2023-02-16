@@ -1,0 +1,81 @@
+{
+    "wrf": {
+        "wrf_dir": "M:\\Research_data\\wrfout\\LEKIMA4_WDM6_5min_PBL\\d03",
+        "wrfout_prefix_1": "wrfout",
+        "wrfout_prefix_2": "additional",
+        "dt": 300,
+        "wrfdata_name": [
+            "dx3000"
+        ],
+        "wrf_domain": [
+            3
+        ],
+        "wrf_tracking": [
+            1
+        ],
+        "dx": [
+            3000
+        ],
+        "dy": [
+            3000
+        ],
+        "data_rmax": [
+            800000
+        ]
+    },
+    "exp": {
+        "omega": 1.9945,
+        "equation": 2,
+        "boundary": "Zero",
+        "balance_type": "Holton",
+        "diff": 1,
+        "smooth": 15,
+        "stablize_AC": 1,
+        "stablize_BB": 0,
+        "subfix": "test",
+        "rerun": 1,
+        "exp_B": 0,
+        "B_factor": 1.0,
+        "B_avg": 0,
+        "exp_hdy": 0,
+        "hdy_factor": 1.0,
+        "hdy_cut_idx": 50,
+        "hdy_fac_in": 1.0,
+        "hdy_fac_out": 0.5,
+        "hdy_n": 5,
+        "hdy_d": 3,
+        "exp_C": 0,
+        "C_factor": 1.0,
+        "C_cut_idx": 50,
+        "C_fac_in": 1.0,
+        "C_fac_out": 1.0,
+        "C_n": 5,
+        "C_d": 3,
+        "exp_A": 0,
+        "A_factor": 2.0
+    },
+    "model": {
+        "rmax": 801000
+    },
+    "common": {
+        "work_dir_prefix": "LEKIMA_",
+        "output_dir_prefix": "LEKIMA_",
+        "cpus": 16,
+        "zstart": 200,
+        "zend": 23000,
+        "dz": 400,
+        "dtheta": 1,
+        "thetastart": 0,
+        "thetaend": 360,
+        "dr": 1000,
+        "yr": 2019,
+        "mo": 8,
+        "day": 8,
+        "hr": 13,
+        "mi": 0,
+        "sc": 0
+    },
+    "main": {
+        "wrfdata_num": 1
+    }
+}
